@@ -1,17 +1,9 @@
-import { useState } from 'react'
+import { RouterProvider } from "react-router-dom";
+import "./App.css";
+import { router } from "./routes";
 
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1 class="text-3xl font-bold">
-        Hello world!
-      </h1>
-    </>
-  )
+const App = () => {
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
