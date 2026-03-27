@@ -1,6 +1,6 @@
 import { UserLayout } from "@/layouts";
 import { NotFound } from "@/pages/error";
-import { Home, Login } from "@/pages/public";
+import { Counter, Home, Login } from "@/pages/public";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -9,7 +9,8 @@ export const router = createBrowserRouter([
         element: <UserLayout />,
         errorElement: <NotFound />,
         children: [
-            { path: "", element: <Home /> },
+            { path: "home", element: <Home /> },
+            { path: "counter", element: <Counter /> },
         ],
     },
     { path: "login", element: <Login /> },
