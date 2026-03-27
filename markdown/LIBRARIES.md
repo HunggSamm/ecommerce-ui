@@ -7,4 +7,5 @@
 5. **Zod** – Type-safe schema validation library, often used with React Hook Form.  
 6. **Redux Toolkit** – Official, opinionated toolset for efficient Redux development.  
 7. **i18next + react-i18next** – Internationalization (i18n) library for React apps.  
-8. **i18next-browser-languagedetector** – Auto-detects user language from browser or storage.
+8. **i18next-browser-languagedetector** – Auto-detects user language from browser or storage.  
+9. **Axios** – Promise-based HTTP client for making API requests from the browser or Node.js.

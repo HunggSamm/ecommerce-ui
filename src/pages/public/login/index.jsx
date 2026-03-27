@@ -2,7 +2,7 @@ import { useForm, FormProvider } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { TextField } from "@/components/ui/form";
+import { TextField } from "@/components/form";
 
 const loginSchema = z.object({
     email: z.email({ message: "Email không hợp lệ" }),
